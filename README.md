@@ -33,14 +33,14 @@ Authors: [Xiaxi Shen](https://github.com/xshen053)
 
 ## Project Demo
 
+[Demo](https://drive.google.com/file/d/158SPp0oqFk21MmgQrR-ulyX4efA0c5Tk/view)
+
+![avatar](https://github.com/xshen053/CampusMap/blob/main/image/a_m_1_AdobeExpress.gif?raw=true)
+
 ![avatar](https://github.com/xshen053/CampusMap/blob/main/image/demo1.jpeg?raw=true)
-
-# Installation/Usage
-
-Instructions on installing and running our application:
-In order to use our program, you would first clone our project repository (git clone https://github.com/cs100/final-project-xshen053-hyu146-jfern025-vvino005.git) into your local machine and change into its directory.
-Next you would compile the application by running the command "g++ main.cpp -o main" in your terminal followed by "./main.exe" to execute it.
 
 # Testing
 
-We tested our project utilizing gtest for c++. We created a task folder that holds all of the seperate unit tests for each class and tested expected user inputs and invalid user inputs. The have a seperate branch to test the strategy pattern and we made mock test files to make sure that we implemented the functions correctly. We also tested mock main.cpp cases manually where we call the menu in a main.cpp, tests its actions and its functionality, and finally carry out those functions that implement both the composite pattern and strategy pattern.
+Testing includes unit testing and script testing.
+
+I tested each class and tested expected user inputs and invalid user inputs.
