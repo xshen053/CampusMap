@@ -1,0 +1,14 @@
+# Tests adding two nodes to the graph
+
+# Create a graph
+CreateGraph TNZER_graph
+
+# Add two nodes
+AddNode TNZER_graph b
+AddNode TNZER_graph a
+
+# Print the nodes in the graph, the outgoing edges from a,
+# and outgoing edges from b
+ListNodes TNZER_graph
+ListChildren TNZER_graph a
+ListChildren TNZER_graph b

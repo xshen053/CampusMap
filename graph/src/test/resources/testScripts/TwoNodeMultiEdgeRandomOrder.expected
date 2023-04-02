@@ -1,0 +1,22 @@
+# Tests adding two nodes, multiple edges to graph
+# Random add order
+
+# Create a graph
+created graph TNMERO_graph
+
+# Add two nodes
+added node a to TNMERO_graph
+added node b to TNMERO_graph
+
+# Add five edges
+added edge AA from a to a in TNMERO_graph
+added edge BA from b to a in TNMERO_graph
+added edge AB2 from a to b in TNMERO_graph
+added edge BB from b to b in TNMERO_graph
+added edge AB1 from a to b in TNMERO_graph
+
+# Print the nodes in the graph, the outgoing edges from a,
+# and outgoing edges from b
+TNMERO_graph contains: a b
+the children of a in TNMERO_graph are: a(AA) b(AB1) b(AB2)
+the children of b in TNMERO_graph are: a(BA) b(BB)

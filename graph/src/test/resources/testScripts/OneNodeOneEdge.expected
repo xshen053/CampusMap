@@ -1,0 +1,12 @@
+# Create a graph
+created graph ONOE_graph
+
+# Add a node
+added node A to ONOE_graph
+
+# Add an edge
+added edge e1 from A to A in ONOE_graph
+
+# Print the nodes in the graph and the outgoing edges from A
+ONOE_graph contains: A
+the children of A in ONOE_graph are: A(e1)

@@ -1,0 +1,21 @@
+# Tests adding two nodes, multiple edges to graph.
+
+# Create a graph
+CreateGraph TNME_graph
+
+# Add two nodes
+AddNode TNME_graph a
+AddNode TNME_graph b
+
+# Add five edges
+AddEdge TNME_graph a a AA
+AddEdge TNME_graph a b AB1
+AddEdge TNME_graph a b AB2
+AddEdge TNME_graph b a BA
+AddEdge TNME_graph b b BB
+
+# Print the nodes in the graph, the outgoing edges from a,
+# and outgoing edges from b
+ListNodes TNME_graph
+ListChildren TNME_graph a
+ListChildren TNME_graph b

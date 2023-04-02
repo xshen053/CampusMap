@@ -1,0 +1,16 @@
+# add two same edges, see if it will print one edge or two
+
+# Create a graph
+CreateGraph ATDW_graph
+
+# Add two nodes
+AddNode ATDW_graph a
+AddNode ATDW_graph b
+
+# Add one edge
+AddEdge ATDW_graph a b e1
+AddEdge ATDW_graph a b e1
+
+# Print the nodes in the graph and the outgoing edges from a
+ListNodes ATDW_graph
+ListChildren ATDW_graph a

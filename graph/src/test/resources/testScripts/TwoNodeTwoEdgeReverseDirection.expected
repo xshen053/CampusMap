@@ -1,0 +1,16 @@
+# Create a graph
+created graph TNOERD_graph
+
+# Add two nodes
+added node b to TNOERD_graph
+added node a to TNOERD_graph
+
+# Add two edges
+added edge AB from a to b in TNOERD_graph
+added edge BA from b to a in TNOERD_graph
+
+# Print the nodes in the graph, the outgoing edges from a,
+# and outgoing edges from b
+TNOERD_graph contains: a b
+the children of a in TNOERD_graph are: b(AB)
+the children of b in TNOERD_graph are: a(BA)

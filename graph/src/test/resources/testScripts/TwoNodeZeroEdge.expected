@@ -1,0 +1,14 @@
+# Tests adding two nodes to the graph
+
+# Create a graph
+created graph TNZE_graph
+
+# Add two nodes
+added node a to TNZE_graph
+added node b to TNZE_graph
+
+# Print the nodes in the graph, the outgoing edges from a,
+# and outgoing edges from b
+TNZE_graph contains: a b
+the children of a in TNZE_graph are:
+the children of b in TNZE_graph are:

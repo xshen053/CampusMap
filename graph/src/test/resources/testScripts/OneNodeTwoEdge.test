@@ -1,0 +1,13 @@
+# Create a graph
+CreateGraph ONTE_graph
+
+# Add a node
+AddNode ONTE_graph A
+
+# Add two edge
+AddEdge ONTE_graph A A e1
+AddEdge ONTE_graph A A e2
+
+# Print the nodes in the graph and the outgoing edges from A
+ListNodes ONTE_graph
+ListChildren ONTE_graph A

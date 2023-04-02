@@ -1,0 +1,9 @@
+# Create a graph
+CreateGraph ONZE_graph
+
+# Add a node
+AddNode ONZE_graph A
+
+# Print the nodes in the graph and the outgoing edges from A
+ListNodes ONZE_graph
+ListChildren ONZE_graph A

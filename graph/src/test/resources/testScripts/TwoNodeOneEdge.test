@@ -1,0 +1,17 @@
+# Tests adding two nodes, one edge between two nodes
+
+# Create a graph
+CreateGraph TNOE_graph
+
+# Add two nodes
+AddNode TNOE_graph a
+AddNode TNOE_graph b
+
+# Add one edge
+AddEdge TNOE_graph a b AB
+
+# Print the nodes in the graph, the outgoing edges from a,
+# and outgoing edges from b
+ListNodes TNOE_graph
+ListChildren TNOE_graph a
+ListChildren TNOE_graph b

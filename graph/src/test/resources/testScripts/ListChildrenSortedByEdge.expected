@@ -1,0 +1,14 @@
+# Create a graph
+created graph LCSBN
+
+# Add a node
+added node n1 to LCSBN
+added node n2 to LCSBN
+
+# Add an edge
+added edge eZ from n1 to n1 in LCSBN
+added edge eB from n1 to n1 in LCSBN
+
+# Print the nodes in the graph and the outgoing edges from n1
+LCSBN contains: n1 n2
+the children of n1 in LCSBN are: n1(eB) n1(eZ)

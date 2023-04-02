@@ -1,0 +1,22 @@
+# Tests adding two nodes, multiple edges to graph
+# Random add order
+
+# Create a graph
+CreateGraph TNMERO_graph
+
+# Add two nodes
+AddNode TNMERO_graph a
+AddNode TNMERO_graph b
+
+# Add five edges
+AddEdge TNMERO_graph a a AA
+AddEdge TNMERO_graph b a BA
+AddEdge TNMERO_graph a b AB2
+AddEdge TNMERO_graph b b BB
+AddEdge TNMERO_graph a b AB1
+
+# Print the nodes in the graph, the outgoing edges from a,
+# and outgoing edges from b
+ListNodes TNMERO_graph
+ListChildren TNMERO_graph a
+ListChildren TNMERO_graph b

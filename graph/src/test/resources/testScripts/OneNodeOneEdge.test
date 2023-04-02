@@ -1,0 +1,12 @@
+# Create a graph
+CreateGraph ONOE_graph
+
+# Add a node
+AddNode ONOE_graph A
+
+# Add an edge
+AddEdge ONOE_graph A A e1
+
+# Print the nodes in the graph and the outgoing edges from A
+ListNodes ONOE_graph
+ListChildren ONOE_graph A

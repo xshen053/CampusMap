@@ -1,0 +1,13 @@
+# Create a graph
+created graph ONTE_graph
+
+# Add a node
+added node A to ONTE_graph
+
+# Add two edge
+added edge e1 from A to A in ONTE_graph
+added edge e2 from A to A in ONTE_graph
+
+# Print the nodes in the graph and the outgoing edges from A
+ONTE_graph contains: A
+the children of A in ONTE_graph are: A(e1) A(e2)

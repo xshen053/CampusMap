@@ -1,0 +1,19 @@
+# Tests adding two nodes, one edge between two nodes
+# and one points to itself
+
+# Create a graph
+created graph TNOESD_graph
+
+# Add two nodes
+added node a to TNOESD_graph
+added node b to TNOESD_graph
+
+# Add one edge
+added edge AA from a to a in TNOESD_graph
+added edge AB from a to b in TNOESD_graph
+
+# Print the nodes in the graph, the outgoing edges from a,
+# and outgoing edges from b
+TNOESD_graph contains: a b
+the children of a in TNOESD_graph are: a(AA) b(AB)
+the children of b in TNOESD_graph are:

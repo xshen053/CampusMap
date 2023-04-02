@@ -1,0 +1,10 @@
+# Create a graph
+created graph ONZE_graph
+
+# Add a node
+added node A to ONZE_graph
+
+# Print the nodes in the graph and the outgoing edges from A
+ONZE_graph contains: A
+the children of A in ONZE_graph are:
+

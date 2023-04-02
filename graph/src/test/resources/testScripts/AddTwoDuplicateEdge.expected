@@ -1,0 +1,15 @@
+# add two same edges, see if it will print one edge or two
+
+# Create a graph
+created graph ATDW_graph
+
+# Add two nodes
+added node a to ATDW_graph
+added node b to ATDW_graph
+
+# Add one edge
+added edge e1 from a to b in ATDW_graph
+
+# Print the nodes in the graph and the outgoing edges from a
+ATDW_graph contains: a b
+the children of a in ATDW_graph are: b(e1)
