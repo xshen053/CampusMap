@@ -4,8 +4,6 @@ Authors: [Xiaxi Shen](https://github.com/xshen053)
 
 ## Project Description
 
-- Designing and developing a task scheduler is interesting to us because most of us use some task scheduler software nowadays, such as Microsoft Todo. Therefore, we are curious about the mechanism of how to create a task scheduler. What’s more, the function of the present task scheduler is limited. So if we want to add some new function or features, we can only do them ourselves. Realizing such a task scheduler can not only help us solidify what we learned in CS100, but can also help us improve our ability of time management.
-
 - The goal of this project is to build a full-stack web application, which is, a campus map! I learned a lot through the process.
 
 - The languages/tools/technologies I used.
