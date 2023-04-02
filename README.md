@@ -18,7 +18,7 @@ Authors: [Xiaxi Shen](https://github.com/xshen053)
 
   - [IntelliJ IDEA](https://www.jetbrains.com/idea/) - I used IntelliJ IDEA as Integrated development environment.
 
-  - [Gitlab](https://about.gitlab.com/) - I used gitlab as version control system
+  - [Gitlab](https://about.gitlab.com/) - I used gitlab as version control system.
 
   - [Gradle](https://gradle.org/) - I used gradle as the build automation tool.
 
