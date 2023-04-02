@@ -44,3 +44,5 @@ Authors: [Xiaxi Shen](https://github.com/xshen053)
 Testing includes unit testing and script testing.
 
 I tested each class and tested expected user inputs and invalid user inputs.
+
+![example](https://github.com/xshen053/CampusMap/blob/main/image/test.jpeg?raw=true)
