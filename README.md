@@ -29,11 +29,11 @@ Authors: [Xiaxi Shen](https://github.com/xshen053)
 
 ## Software Architecture
 
-![avatar](https://github.com/xshen053/CampusMap/blob/main/overview-diagram.png?raw=true)
+![avatar](https://github.com/xshen053/CampusMap/blob/main/image/overview-diagram.png?raw=true)
 
 ## Project Demo
 
-![avatar](https://github.com/xshen053/CampusMap/blob/main/overview-diagram.png?raw=true)
+![avatar](https://github.com/xshen053/CampusMap/blob/main/image/demo1.jpeg?raw=true)
 
 # Installation/Usage
 
